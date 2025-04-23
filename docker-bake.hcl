@@ -1,9 +1,9 @@
 variable "DEFAULT_TAG" {
-  default = "docker:local"
+  default = "hfoxy4/docker:latest"
 }
 
 variable "DOCKERFILE" {
-  default = "Dockerfile-26.1"
+  default = "Dockerfile-28.1"
 }
 
 // Special target: https://github.com/docker/metadata-action#bake-definition
